@@ -1,0 +1,6 @@
+C:\Users\student\Documents\GitHub\C#\Day1\switch\switch\bin\Debug\@switch.exe.config
+C:\Users\student\Documents\GitHub\C#\Day1\switch\switch\bin\Debug\@switch.exe
+C:\Users\student\Documents\GitHub\C#\Day1\switch\switch\bin\Debug\@switch.pdb
+C:\Users\student\Documents\GitHub\C#\Day1\switch\switch\obj\Debug\switch.csprojResolveAssemblyReference.cache
+C:\Users\student\Documents\GitHub\C#\Day1\switch\switch\obj\Debug\@switch.exe
+C:\Users\student\Documents\GitHub\C#\Day1\switch\switch\obj\Debug\@switch.pdb

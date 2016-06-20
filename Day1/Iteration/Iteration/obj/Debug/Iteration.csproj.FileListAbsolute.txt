@@ -1,0 +1,6 @@
+C:\Users\student\Documents\GitHub\C#\Day1\Iteration\Iteration\bin\Debug\Iteration.exe.config
+C:\Users\student\Documents\GitHub\C#\Day1\Iteration\Iteration\bin\Debug\Iteration.exe
+C:\Users\student\Documents\GitHub\C#\Day1\Iteration\Iteration\bin\Debug\Iteration.pdb
+C:\Users\student\Documents\GitHub\C#\Day1\Iteration\Iteration\obj\Debug\Iteration.csprojResolveAssemblyReference.cache
+C:\Users\student\Documents\GitHub\C#\Day1\Iteration\Iteration\obj\Debug\Iteration.exe
+C:\Users\student\Documents\GitHub\C#\Day1\Iteration\Iteration\obj\Debug\Iteration.pdb
