@@ -136,6 +136,7 @@
             this.radioButtonQ1A2.TabStop = true;
             this.radioButtonQ1A2.Text = "Dennis Ritchie";
             this.radioButtonQ1A2.UseVisualStyleBackColor = true;
+            this.radioButtonQ1A2.CheckedChanged += new System.EventHandler(this.radioButtonQ1A2_CheckedChanged);
             // 
             // radioButtonQ1A3
             // 

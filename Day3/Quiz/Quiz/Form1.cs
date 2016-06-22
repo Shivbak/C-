@@ -64,5 +64,19 @@ namespace Quiz
                 labelQ1FeedBack.Text = "";
             }
         }
+
+        private void radioButtonQ1A2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButtonQ1A2.Checked)
+            {
+                labelQ1FeedBack.ForeColor = Color.Green;
+                labelQ1FeedBack.Text = "\u00fb";//cross
+                q1Correct = true;
+            }
+            else
+            {
+                labelQ1FeedBack.Text = "";
+            }
+        }
     }
 }
