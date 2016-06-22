@@ -7,3 +7,12 @@ C:\Users\student\Documents\GitHub\C#\Day3\Quiz\Quiz\obj\Debug\Quiz.Properties.Re
 C:\Users\student\Documents\GitHub\C#\Day3\Quiz\Quiz\obj\Debug\Quiz.csproj.GenerateResource.Cache
 C:\Users\student\Documents\GitHub\C#\Day3\Quiz\Quiz\obj\Debug\Quiz.exe
 C:\Users\student\Documents\GitHub\C#\Day3\Quiz\Quiz\obj\Debug\Quiz.pdb
+C:\Users\Arjun\Documents\GitHub\C-\Day3\Quiz\Quiz\bin\Debug\Quiz.exe.config
+C:\Users\Arjun\Documents\GitHub\C-\Day3\Quiz\Quiz\obj\Debug\Quiz.exe
+C:\Users\Arjun\Documents\GitHub\C-\Day3\Quiz\Quiz\obj\Debug\Quiz.pdb
+C:\Users\Arjun\Documents\GitHub\C-\Day3\Quiz\Quiz\bin\Debug\Quiz.exe
+C:\Users\Arjun\Documents\GitHub\C-\Day3\Quiz\Quiz\bin\Debug\Quiz.pdb
+C:\Users\Arjun\Documents\GitHub\C-\Day3\Quiz\Quiz\obj\Debug\Quiz.csprojResolveAssemblyReference.cache
+C:\Users\Arjun\Documents\GitHub\C-\Day3\Quiz\Quiz\obj\Debug\Quiz.Form1.resources
+C:\Users\Arjun\Documents\GitHub\C-\Day3\Quiz\Quiz\obj\Debug\Quiz.Properties.Resources.resources
+C:\Users\Arjun\Documents\GitHub\C-\Day3\Quiz\Quiz\obj\Debug\Quiz.csproj.GenerateResource.Cache

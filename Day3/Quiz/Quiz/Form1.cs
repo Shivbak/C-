@@ -46,10 +46,7 @@ namespace Quiz
             }
         }
 
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
+       
 
         private void radioButtonQ1A1_CheckedChanged(object sender, EventArgs e)
         {
@@ -70,7 +67,7 @@ namespace Quiz
             if (radioButtonQ1A2.Checked)
             {
                 labelQ1FeedBack.ForeColor = Color.Green;
-                labelQ1FeedBack.Text = "\u00fb";//cross
+                labelQ1FeedBack.Text = "\u00fc";//cross
                 q1Correct = true;
             }
             else
@@ -78,5 +75,9 @@ namespace Quiz
                 labelQ1FeedBack.Text = "";
             }
         }
+
+      
+
+        
     }
 }
