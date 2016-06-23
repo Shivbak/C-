@@ -57,6 +57,8 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.labelQ2feedback = new System.Windows.Forms.Label();
+            this.labelQ3feedback = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -73,7 +75,7 @@
             this.tableLayoutPanel1.ColumnCount = 3;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 36F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 64F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 138F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 139F));
             this.tableLayoutPanel1.Controls.Add(this.pictureBox1, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.groupBox1, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.groupBox2, 1, 2);
@@ -84,6 +86,8 @@
             this.tableLayoutPanel1.Controls.Add(this.groupBox3, 1, 3);
             this.tableLayoutPanel1.Controls.Add(this.pictureBox2, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.pictureBox3, 0, 3);
+            this.tableLayoutPanel1.Controls.Add(this.labelQ2feedback, 2, 2);
+            this.tableLayoutPanel1.Controls.Add(this.labelQ3feedback, 2, 3);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 12);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 5;
@@ -101,7 +105,7 @@
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(3, 69);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(167, 133);
+            this.pictureBox1.Size = new System.Drawing.Size(166, 133);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -113,7 +117,7 @@
             this.groupBox1.Controls.Add(this.radioButtonQ1A1);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox1.Location = new System.Drawing.Point(176, 69);
+            this.groupBox1.Location = new System.Drawing.Point(175, 69);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(301, 133);
             this.groupBox1.TabIndex = 1;
@@ -129,6 +133,7 @@
             this.radioButtonQ1A3.TabStop = true;
             this.radioButtonQ1A3.Text = "Albus Dumbledore";
             this.radioButtonQ1A3.UseVisualStyleBackColor = true;
+            this.radioButtonQ1A3.CheckedChanged += new System.EventHandler(this.radioButtonQ1A3_CheckedChanged);
             // 
             // radioButtonQ1A2
             // 
@@ -171,12 +176,11 @@
             this.groupBox2.Controls.Add(this.radioButtonQ2A1);
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox2.Location = new System.Drawing.Point(176, 208);
+            this.groupBox2.Location = new System.Drawing.Point(175, 208);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(301, 125);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // radioButtonQ2A3
             // 
@@ -188,6 +192,7 @@
             this.radioButtonQ2A3.TabStop = true;
             this.radioButtonQ2A3.Text = "Directing \'The Force Awakens\'";
             this.radioButtonQ2A3.UseVisualStyleBackColor = true;
+            this.radioButtonQ2A3.CheckedChanged += new System.EventHandler(this.radioButtonQ2A3_CheckedChanged);
             // 
             // radioButtonQ2A2
             // 
@@ -199,6 +204,7 @@
             this.radioButtonQ2A2.TabStop = true;
             this.radioButtonQ2A2.Text = "Writing the code for the Apollo space missions";
             this.radioButtonQ2A2.UseVisualStyleBackColor = true;
+            this.radioButtonQ2A2.CheckedChanged += new System.EventHandler(this.radioButtonQ2A2_CheckedChanged);
             // 
             // radioButtonQ2A1
             // 
@@ -210,6 +216,7 @@
             this.radioButtonQ2A1.TabStop = true;
             this.radioButtonQ2A1.Text = "Presenting Bake-Off";
             this.radioButtonQ2A1.UseVisualStyleBackColor = true;
+            this.radioButtonQ2A1.CheckedChanged += new System.EventHandler(this.radioButtonQ2A1_CheckedChanged);
             // 
             // label2
             // 
@@ -225,9 +232,9 @@
             // 
             this.labelQ1FeedBack.AutoSize = true;
             this.labelQ1FeedBack.Font = new System.Drawing.Font("Wingdings", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.labelQ1FeedBack.Location = new System.Drawing.Point(483, 66);
+            this.labelQ1FeedBack.Location = new System.Drawing.Point(482, 66);
             this.labelQ1FeedBack.Name = "labelQ1FeedBack";
-            this.labelQ1FeedBack.Size = new System.Drawing.Size(133, 139);
+            this.labelQ1FeedBack.Size = new System.Drawing.Size(134, 139);
             this.labelQ1FeedBack.TabIndex = 3;
             this.labelQ1FeedBack.Text = "label3";
             // 
@@ -236,7 +243,7 @@
             this.label3.AutoSize = true;
             this.label3.Dock = System.Windows.Forms.DockStyle.Right;
             this.label3.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(383, 0);
+            this.label3.Location = new System.Drawing.Point(382, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(94, 66);
             this.label3.TabIndex = 4;
@@ -245,18 +252,18 @@
             // labelTimeLeft
             // 
             this.labelTimeLeft.AutoSize = true;
-            this.labelTimeLeft.Location = new System.Drawing.Point(483, 0);
+            this.labelTimeLeft.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTimeLeft.Location = new System.Drawing.Point(482, 0);
             this.labelTimeLeft.Name = "labelTimeLeft";
-            this.labelTimeLeft.Size = new System.Drawing.Size(35, 13);
+            this.labelTimeLeft.Size = new System.Drawing.Size(0, 14);
             this.labelTimeLeft.TabIndex = 5;
-            this.labelTimeLeft.Text = "label4";
             // 
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.Controls.Add(this.button1);
             this.flowLayoutPanel1.Controls.Add(this.buttonClose);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(176, 464);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(175, 464);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(301, 56);
             this.flowLayoutPanel1.TabIndex = 7;
@@ -282,12 +289,13 @@
             this.buttonClose.TabIndex = 7;
             this.buttonClose.Text = "Close";
             this.buttonClose.UseVisualStyleBackColor = true;
+            this.buttonClose.Click += new System.EventHandler(this.buttonClose_Click);
             // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.groupBox4);
             this.groupBox3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox3.Location = new System.Drawing.Point(176, 339);
+            this.groupBox3.Location = new System.Drawing.Point(175, 339);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(301, 119);
             this.groupBox3.TabIndex = 8;
@@ -316,6 +324,7 @@
             this.radioButtonQ3A3.TabStop = true;
             this.radioButtonQ3A3.Text = "Colour PC screen. ISA system bus, gigahertz chip";
             this.radioButtonQ3A3.UseVisualStyleBackColor = true;
+            this.radioButtonQ3A3.CheckedChanged += new System.EventHandler(this.radioButtonQ3A3_CheckedChanged);
             // 
             // radioButtonQ3A2
             // 
@@ -327,6 +336,7 @@
             this.radioButtonQ3A2.TabStop = true;
             this.radioButtonQ3A2.Text = "Graphical User Interface";
             this.radioButtonQ3A2.UseVisualStyleBackColor = true;
+            this.radioButtonQ3A2.CheckedChanged += new System.EventHandler(this.radioButtonQ3A2_CheckedChanged);
             // 
             // radioButtonQ3A1
             // 
@@ -338,6 +348,7 @@
             this.radioButtonQ3A1.TabStop = true;
             this.radioButtonQ3A1.Text = "Twitter";
             this.radioButtonQ3A1.UseVisualStyleBackColor = true;
+            this.radioButtonQ3A1.CheckedChanged += new System.EventHandler(this.radioButtonQ3A1_CheckedChanged);
             // 
             // label4
             // 
@@ -355,7 +366,7 @@
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(3, 208);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(167, 125);
+            this.pictureBox2.Size = new System.Drawing.Size(166, 125);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 9;
             this.pictureBox2.TabStop = false;
@@ -366,7 +377,7 @@
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(3, 339);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(167, 119);
+            this.pictureBox3.Size = new System.Drawing.Size(166, 119);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 10;
             this.pictureBox3.TabStop = false;
@@ -375,6 +386,26 @@
             // 
             this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // labelQ2feedback
+            // 
+            this.labelQ2feedback.AutoSize = true;
+            this.labelQ2feedback.Font = new System.Drawing.Font("Wingdings", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.labelQ2feedback.Location = new System.Drawing.Point(482, 205);
+            this.labelQ2feedback.Name = "labelQ2feedback";
+            this.labelQ2feedback.Size = new System.Drawing.Size(134, 131);
+            this.labelQ2feedback.TabIndex = 11;
+            this.labelQ2feedback.Text = "lable3";
+            // 
+            // labelQ3feedback
+            // 
+            this.labelQ3feedback.AutoSize = true;
+            this.labelQ3feedback.Font = new System.Drawing.Font("Wingdings", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.labelQ3feedback.Location = new System.Drawing.Point(482, 336);
+            this.labelQ3feedback.Name = "labelQ3feedback";
+            this.labelQ3feedback.Size = new System.Drawing.Size(134, 125);
+            this.labelQ3feedback.TabIndex = 12;
+            this.labelQ3feedback.Text = "label5";
             // 
             // Form1
             // 
@@ -430,6 +461,8 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.RadioButton radioButtonQ3A3;
         private System.Windows.Forms.RadioButton radioButtonQ3A2;
+        private System.Windows.Forms.Label labelQ2feedback;
+        private System.Windows.Forms.Label labelQ3feedback;
     }
 }
 
