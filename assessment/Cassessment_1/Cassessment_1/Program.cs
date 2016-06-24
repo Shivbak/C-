@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Cassessment_1
-{
+{   // books class
     public class Books
     {
         public string Title;
@@ -13,6 +13,7 @@ namespace Cassessment_1
         public int ISBN;
         public int Price;
 
+        //adding book
         public void AddBook(string title, string author, int ISBN, int price )
         {
             this.Title = title;
@@ -21,6 +22,7 @@ namespace Cassessment_1
             this.Price = price;
         }
 
+        // displaying list of book
         public static void List_of_Books(List<Books> listofbooks)
         {
             foreach(Books name in listofbooks)
@@ -36,12 +38,13 @@ namespace Cassessment_1
         {
             string Delete_book;
             string User_input;
+            //object of books class
             List<Books> ListOfBooks = new List<Books>();
             Books book1 = new Books();
             Books book2 = new Books();
-            Books book9 = new Books();
+            
             book1.AddBook("The Grapes Of Wrath", "By John Steinbeck", 001, 100);
-            book9.AddBook("abc", "By John Steinbeck", 001, 100);
+           
 
             ListOfBooks.Add(book1);
             ListOfBooks.Add(book9);
@@ -59,6 +62,7 @@ namespace Cassessment_1
                 User_input = (Console.ReadLine()).ToUpper();
                 switch (User_input)
                 {
+                    // adding book
                     case "A":
                         Console.WriteLine("Enter New Book Name:");
                         book2.Title = Console.ReadLine();
@@ -71,27 +75,31 @@ namespace Cassessment_1
                         ListOfBooks.Add(book2);
                         Books.List_of_Books(ListOfBooks);
                         break;
-
+                    
+                        //displaying list of book
                     case "L":
                        
                         Books.List_of_Books(ListOfBooks);
                         break;
 
+                        // deleting book
                     case "D":
                         Console.WriteLine("Enter Name of Book that You want to Delete :");
                         Delete_book = Console.ReadLine();
                         Console.WriteLine("book to delete is:" + Delete_book);
-                        foreach (Books iteam in ListOfBooks)
+                        for (var i = 0; i < ListOfBooks.Count; i++)
                         {
-                           
-                                ListOfBooks.Remove(book1);
+                            if (Delete_book == ListOfBooks[i].Title)
+                            {
+                                ListOfBooks.Remove(ListOfBooks[i]);
 
-                            
+                            }
                         }
                         
                         Books.List_of_Books(ListOfBooks);
                         break;
 
+                        // exit 
                     case "X":
                         return;
 
