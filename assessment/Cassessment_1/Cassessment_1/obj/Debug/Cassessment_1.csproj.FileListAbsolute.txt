@@ -1,0 +1,6 @@
+C:\Users\student\Documents\GitHub\C#\assessment\Cassessment_1\Cassessment_1\bin\Debug\Cassessment_1.exe.config
+C:\Users\student\Documents\GitHub\C#\assessment\Cassessment_1\Cassessment_1\bin\Debug\Cassessment_1.exe
+C:\Users\student\Documents\GitHub\C#\assessment\Cassessment_1\Cassessment_1\bin\Debug\Cassessment_1.pdb
+C:\Users\student\Documents\GitHub\C#\assessment\Cassessment_1\Cassessment_1\obj\Debug\Cassessment_1.csprojResolveAssemblyReference.cache
+C:\Users\student\Documents\GitHub\C#\assessment\Cassessment_1\Cassessment_1\obj\Debug\Cassessment_1.exe
+C:\Users\student\Documents\GitHub\C#\assessment\Cassessment_1\Cassessment_1\obj\Debug\Cassessment_1.pdb
